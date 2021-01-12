@@ -1,2 +1,2 @@
-# softwareMethodology
-code to exemplify concrepts in software methodology, done in java
+# java-concepts
+code to exemplify concepts learned in intro to java, data structures, software methodology, and algorithms, ALL done in java ;) 
