@@ -10,7 +10,10 @@ public class Parse {
 		String line = "";
 		while(scanner.hasNextLine()) {
 			line = scanner.nextLine();
-			if(line.isEmpty()) {
+			if(line.isEmpty() || line == null) {
+				//empty string --> string has been initialized but is just empty
+				//null --> no value in memory dedicated to that string (hasn't been initialized)
+				//will never be null because we initialize it
 				throw new NoSuchElementException("Empty line");
 			}
 			if(line.length()>=5) {
