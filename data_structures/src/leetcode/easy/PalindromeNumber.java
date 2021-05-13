@@ -2,6 +2,14 @@ package leetcode.easy;
 import java.util.*;
 
 public class PalindromeNumber {
+	//the better way to approach this would've been to start backwards and analyze the beginning and end
+	//because in the best case, a number is like 1122 and you immediately see 1 and 2 (front and end) != and therefore,
+	//it's no. 
+	//we would only need to go to halfway --> to the middle of the number and compare
+	//because if 1221 --> you see 12 and 21 which is flipped
+	
+	//yours runs in log(n) time, which is the number of digits in x
+	//but creating a stack caused extra space. Not the best. Should revisit
 
 	    public boolean isPalindrome(int x) {
 	        if(x<0){
