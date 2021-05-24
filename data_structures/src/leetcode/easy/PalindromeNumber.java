@@ -10,8 +10,12 @@ public class PalindromeNumber {
 	
 	//yours runs in log(n) time, which is the number of digits in x
 	//but creating a stack caused extra space. Not the best. Should revisit
+	
+	public static void main (String[]args) {
+		System.out.println(isPalindrome(1211));
+	}
 
-	    public boolean isPalindrome(int x) {
+	    public static boolean isPalindrome(int x) {
 	        if(x<0){
 	            return false;
 	            //we know a negative will NEVER be a palindrome
@@ -22,9 +26,7 @@ public class PalindromeNumber {
 	        Stack<Character> sta = new Stack<Character>();
 	        for(int i=0; i<=original.length()-1; i++){
 	            //parse through and put on the stack 
-	            
 	            char character = original.charAt(i);
-	            System.out.println(character);
 	            sta.push(character);
 	        }
 	        
