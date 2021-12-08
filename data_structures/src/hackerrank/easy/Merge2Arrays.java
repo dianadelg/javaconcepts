@@ -74,7 +74,7 @@ public class Merge2Arrays {
 		int[] answer = new int[a.length + b.length];
 	    int i = 0, j = 0, k = 0;
 	    while (i < a.length && j < b.length) {
-	    	//while there are still elements in each array/we did not go over both indexes
+	    	//while there are still elements in each array/we did not go out of bounds for either list
 	    	//System.out.println("index i : " + i + "  index j :" + j + "   index k : " + k);
 	        if (a[i] < b[j]){
 	            answer[k] = a[i];

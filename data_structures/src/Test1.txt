@@ -1,0 +1,10 @@
+burger.letter.net - - [01/10/2021:00:00:06 -0400] "Get /shuttle/diana/img/dia.gif" 500 3940
+burger.letter.net - - [01/10/2021:00:00:06 -0400] "Get /shuttle/diana/img/dia.gif" 4098 5000
+burger.letter.net - - [01/10/2021:00:00:06 -0400] "Get /shuttle/diana/img/dia.gif" 5000 340
+burger.letter.net - - [01/10/2021:00:00:06 -0400] "Get /shuttle/diana/img/dia.gif" 989 8998
+burger.letter.net - - [01/10/2021:00:00:06 -0400] "Get /shuttle/diana/img/dia.gif" 94 21
+burger.letter.net - - [01/10/2021:00:00:06 -0400] "Get /shuttle/diana/img/dia.gif" 4 2
+burger.letter.net - - [01/10/2021:00:00:06 -0400] "Get /shuttle/diana/img/dia.gif" 6 8
+burger.letter.net - - [01/10/2021:00:00:06 -0400] "Get /shuttle/diana/img/dia.gif" 34 45054
+burger.letter.net - - [01/10/2021:00:00:06 -0400] "Get /shuttle/diana/img/dia.gif" 500 7950
+burger.letter.net - - [01/10/2021:00:00:06 -0400] "Get /shuttle/diana/img/dia.gif" 500 9000
