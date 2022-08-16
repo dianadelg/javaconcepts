@@ -14,6 +14,25 @@ public class Merge2Arrays {
 	 * b = [2,5,5] --> int b[n]
 	 * 
 	 * c = [1,2,2,3,5,5]  --> int c[n+n]
+	 * 
+	 * 
+	 * INPUTS
+	 * 
+	 * input array1 size n
+	 * elements...n
+	 * 
+	 * then array2 size m
+	 * elements...m
+	 * 
+	 * then hit enter
+	 * 
+	 * EX: 2             --- is the array1 size
+	 * 3 ---------arr1[0]
+	 * 4 ---------arr1[1]
+	 * 
+	 * 3 ---------is the array2 size
+	 * ..
+	 * 
 	 */
 	
 	public static void main (String[] args) {
